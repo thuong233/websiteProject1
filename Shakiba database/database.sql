@@ -1,0 +1,1 @@
+-- in this section you will create a database for managing the posts and news from the admin users
