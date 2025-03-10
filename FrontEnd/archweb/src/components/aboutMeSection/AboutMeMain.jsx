@@ -6,13 +6,13 @@ const AboutMeMain = () => {
   return (
     <div
       id="about"
-      className="flex md:flex-row sm:flex-col gap-12 px-4 max-w-[1200px] mx-auto mt-[100px] mb-[100px] justify-between items-center "
+      className="flex flex-col items-center w-full px-10 py-16 gap-20 "
     >
-      <div>
-        <AboutMeText />
-      </div>
-      <div>
+      <div className="mt-[100px]">
         <AboutMeImage />
+      </div>
+      <div className="w-full bg-gray-300 text-black text-center p-10 rounded-lg">
+        <AboutMeText />
       </div>
     </div>
   );
