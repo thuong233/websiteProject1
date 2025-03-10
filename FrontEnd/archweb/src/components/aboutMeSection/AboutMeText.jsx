@@ -3,8 +3,8 @@ import React from "react";
 const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center ">
-      <h2 className="text 6xl text-white mb-10">About Us</h2>
-      <p className="text-white ">
+      <h2 className="text-6xl font-bold text-orange mb-10">About Us</h2>
+      <p className="text-orange font-bold text-xl ">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae tempore
         facere maiores exercitationem quaerat pariatur tenetur maxime soluta at
         ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
@@ -20,7 +20,7 @@ const AboutMeText = () => {
         aliquam ab repellat natus officiis? Sunt totam architecto inventore.
         Consequuntur!
       </p>
-      <button className="border border-white rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-white transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-black ">
+      <button className="border border-orange rounded-lg py-2 px-4 text-xl flex items-center mt-10 hover:bg-white transition-all duration-500 cursor-pointer md:self-start sm:self-center text-orange hover:text-black ">
         Our Projects
       </button>
     </div>
