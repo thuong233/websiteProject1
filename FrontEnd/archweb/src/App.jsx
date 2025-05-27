@@ -1,6 +1,5 @@
 import NavbarMain from "./components/navbar/NavbarMain";
 import HeroMain from "./components/heroSection/HeroMain";
-// import SubHeroSection from "./components/heroSection/subHeroSection";
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import HelperSection from "./components/HelperSection";
 import SkillsMain from "./components/specialSection/SkillsMain";
@@ -14,7 +13,7 @@ function App() {
   return (
     <main className="font-body">
       <NavbarMain />
-      <HeroMain />
+      <HeroMain />no
       <SubHeroSection />
       <AboutMeMain />
       <NewsMain />

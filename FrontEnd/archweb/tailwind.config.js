@@ -64,5 +64,6 @@ export default {
       special: ["Roboto"],
     },
   },
-  plugins: [require("daisyui"), require("tailwind-scrollbar-hide")],
+  plugins: [require("daisyui"), 
+    require("tailwind-scrollbar-hide")],
 };
